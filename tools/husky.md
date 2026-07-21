@@ -1,11 +1,16 @@
-# Next.js + TypeScript + pnpm Setup Guide
+# Husky Setup Guide
 ## ESLint + Prettier + Husky + lint-staged (2026)
 
-This guide configures a professional code quality workflow for a **Next.js + TypeScript** project using **pnpm**.
+it is a git hooks tool, configures a professional code quality workflow for a **Next.js + TypeScript** project using **pnpm** or any **git** related projects.
 
 ---
+## Why Husky?
+- No broken code to production - Can't push if next build fails
+- Consistent code - Auto formats all commits
+- Catches RFQ form bugs before they go live
+---
 
-# Tech Stack
+## Tech Stack
 
 - Next.js
 - TypeScript

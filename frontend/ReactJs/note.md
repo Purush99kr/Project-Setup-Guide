@@ -1,13 +1,3 @@
-## Commands
-
-```js
-pnpm add -D eslint prettier eslint-config-prettier eslint-plugin-react-hooks
-
-pnpm add -D husky lint-staged
-
-pnpm exec husky init
-```
-
 ## Package Installation
 
 ```text

@@ -46,38 +46,22 @@ pnpm dlx shadcn@latest add button input card dialog form sonner
 ```
 
 ## 6. Install Husky
-```bash
-pnpm dlx husky-init
-pnpm install
-```
 
-or (latest)
+### View the below file
+[Husky setup guide: ](../../tools/husky.md)
 
-```bash
-pnpm dlx husky init
-```
 
-## 7. Add Pre-commit Hook
-```bash
-echo "pnpm lint" > .husky/pre-commit
-```
-
-Make executable (Linux/macOS):
-```bash
-chmod +x .husky/pre-commit
-```
-
-## 8. Run Development Server
+## 7. Run Development Server
 ```bash
 pnpm dev
 ```
 
-## 9. Build Project
+## 8. Build Project
 ```bash
 pnpm build
 ```
 
-## 10. Start Production
+## 9. Start Production
 ```bash
 pnpm start
 ```
